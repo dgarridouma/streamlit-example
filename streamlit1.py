@@ -19,7 +19,6 @@ fig = go.Figure()
 #else:
 #        smarcadores = "lines"
 
-st.line_chart(df)
 
 if chart_visual == 'Line Chart':
         df2 = df[df["country"] == 'Spain']
